@@ -17,15 +17,16 @@
 
 .body .boxes {
     display: grid;
-    padding: 10%;
+    padding: 5%;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     border: 1px solid red;
 }
 
 .body .boxes div {
     border: 1px solid rgb(83, 84, 148);
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     padding: 30px;
+    border-radius: 10px;
 }
