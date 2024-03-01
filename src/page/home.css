@@ -1,0 +1,47 @@
+.head {
+    background-color: #01112b;
+    display: flex;
+}
+
+.head .text {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.head .text h1 {
+    margin-top: 28px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.head .text h2 {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.head .text button {
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #f15a24;
+    font-size: 1.5rem;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.head .img {
+    width: 70%;
+    position: relative;
+    animation: test 3s alternate infinite;
+}
+
+.head .img img {
+    width: 90%;
+}
