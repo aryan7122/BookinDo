@@ -15,7 +15,7 @@ const home = () => {
           <button>Get Start</button>
         </div>
         <div className="img">
-          <img src={head_img} alt="" />
+          <img className='up-down' src={head_img} alt="" />
         </div>
       </div>
     </div>

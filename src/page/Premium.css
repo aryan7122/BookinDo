@@ -15,18 +15,122 @@
 
 }
 
+.body .boxes div:hover {
+    scale: 1.03;
+    transition: 0.5s;
+}
+
 .body .boxes {
     display: grid;
     padding: 5%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-    border: 1px solid red;
+    background-color: #F5F6F7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+@media (min-width: 768px) {
+    .body .boxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
 .body .boxes div {
-    border: 1px solid rgb(83, 84, 148);
-    width: 350px;
-    height: 200px;
+    width: 363px;
+    height: 190px;
     padding: 30px;
     border-radius: 10px;
+}
+
+.body .boxes div:nth-child(1) {
+    background-color: #C0E0F6;
+}
+
+.body .boxes div:nth-child(2) {
+    background-color: #C0F3F4;
+}
+
+.body .boxes div:nth-child(3) {
+    background-color: #ECF8D7;
+}
+
+.body .boxes div:nth-child(4) {
+    background-color: #FCD3D1;
+}
+
+.body .boxes div:nth-child(5) {
+    background-color: #ECF8D7;
+}
+
+.body .boxes div:nth-child(6) {
+    background-color: #D1C6E5;
+}
+
+.body .boxes div:nth-child(7) {
+    background-color: #C0E0F6;
+}
+
+.body .boxes div:nth-child(8) {
+    background-color: #C0F3F4;
+}
+
+.body .boxes div:nth-child(9) {
+    background-color: #ECF8D7;
+}
+
+.body .boxes div:nth-child(10) {
+    background-color: #FAE8DB;
+}
+
+.body .boxes div:nth-child(11) {
+    background-color: #FCD3D1;
+}
+
+.body .boxes div:nth-child(12) {
+    background-color: #D1C6E5;
+}
+
+.body .boxes div:nth-child(13) {
+    background-color: #C0E0F6;
+}
+
+.body .boxes div:nth-child(14) {
+    background-color: #C0F3F4;
+}
+
+.body .boxes div:nth-child(15) {
+    background-color: #ECF8D7;
+}
+
+.body .boxes div:nth-child(16) {
+    background-color: #FAE8DB;
+}
+
+.body .boxes div:nth-child(17) {
+    background-color: #FCD3D1;
+}
+
+.body .boxes div:nth-child(18) {
+    background-color: #D1C6E5;
+}
+
+.body .boxes div h3 {
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.body .boxes div p {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    padding-bottom: 20px;
+    font-weight: 500;
+
 }

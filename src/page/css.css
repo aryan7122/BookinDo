@@ -52,11 +52,12 @@
 }
 
 .box .box_2 {
-    width: 50%;
+    width: 60%;
 }
 
 .box .box_2 img {
-    width: 100%;
+    width: 80%;
+
 }
 
 .box .box_1 button {
@@ -90,8 +91,10 @@
 }
 
 .box_1 .box__1 img {
-    width: 100%;
+    width: 80%;
+    padding-left: 60px;
 }
+
 
 .box_1 .box__2 {
     width: 50%;
@@ -128,3 +131,19 @@
 .box_1 .box__2 button:hover {
     background-color: rgb(14, 28, 46);
 }
+
+
+/* 
+ */
+
+ @keyframes slideInUp {
+     0% {
+         opacity: 0;
+         transform: translateY(25%);
+     }
+
+     100% {
+         opacity: 1;
+         transform: none;
+     }
+ }
